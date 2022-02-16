@@ -44,9 +44,8 @@ a:hover {
     padding-right: 0;
 }
 
-.bloc-lg {
-    padding: 100px 50px;
-}
+.bloc-lg {padding: 50px 50px;}
+
 
 .bloc-md {
     padding: 50px;
@@ -677,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -1039,4 +1038,6 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    
 }
