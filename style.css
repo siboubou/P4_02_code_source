@@ -601,7 +601,11 @@ a[data-lightbox]:focus img {
 
 .close-lightbox:hover,
 .next-lightbox:hover,
-.prev-lightbox:hover {
+.prev-lightbox:hover,
+.close-lightbox:focus,
+.next-lightbox:focus,
+.prev-lightbox:focus
+ {
     opacity: 1.0;
     color: #FFF;
 }
@@ -824,7 +828,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
