@@ -363,12 +363,9 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+    .nav-flex{
+        display: flex;
+        
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -654,6 +651,7 @@ a {
     color: #575757;
 }
 
+
 .container {
     max-width: 1000px;
 }
@@ -767,7 +765,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #1D263E;
 }
 
 .bgc-atomic-tangerine {
