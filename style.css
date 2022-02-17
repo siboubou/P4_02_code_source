@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5em !important;
 }
 
 a,
@@ -40,8 +41,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .bloc-lg {padding: 50px 50px;}
@@ -650,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -772,14 +773,13 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
 .tc-white {
     color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #282928!important;
 }
 
 .btn-atomic-tangerine:hover {
