@@ -468,8 +468,8 @@ a[data-lightbox]:focus img {
     opacity: 0.3;
 }
 
-button:hover .close-lightbox,
-button:focus .close-lightbox,
+#blocs-lightbox-close-btn:hover,
+#blocs-lightbox-close-btn:focus,
 a:hover .next-lightbox,
 a:hover .prev-lightbox,
 a:focus .next-lightbox,
@@ -703,10 +703,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -715,8 +712,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -813,11 +808,12 @@ h4 {
     .close-lightbox {
         display: inline-block;
     }
-    .img-responsive.portfolio-thumb{
-        display:unset !important;
-    }
+   
     .text-large{
         font-size: 18px;
+    }
+    .img-responsive.portfolio-thumb{
+        margin: 0 auto;
     }
     .social{
         display: flex;
@@ -829,7 +825,6 @@ h4 {
     text-shadow: -0.5px 0 black, 0 0.5px black,
     0.5px 0 black, 0 -0.5px black;
 }
-
 .text-large{
     font-size: 22px !important;
 }
@@ -855,7 +850,6 @@ h1{
 .text-contact{
     color: #333333 !important;
 }
-
 .nav-item:hover,
 .nav-item:focus{
     background-color: #F3976C !important ;
