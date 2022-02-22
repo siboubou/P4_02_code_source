@@ -863,3 +863,26 @@ a:focus .icon-md {
     border-radius: 20px !important;
 }
 
+#bloc-contact{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+#formulaire{
+    width: 60%;
+    margin-right: 50px;
+}
+#map {
+    height: 250px;
+    width: 200px;
+    margin-bottom: 25px;
+}
+#map-adresse{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+#adresse{
+    text-align: center;
+}

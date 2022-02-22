@@ -23,6 +23,9 @@
     <script defer src="./js/blocs.js"></script>
     <script defer src="./js/jqBootstrapValidation.js"></script>
     <script defer src="./js/formHandler.js"></script>
+    <script defer src="./js/gmap.js"></script>
+
+   
 
     <title>Contact (La Chouette Agence Lyon)</title>
 
@@ -95,8 +98,8 @@
       <!-- bloc-7 -->
       <section class="bloc bgc-white l-bloc" id="bloc-7">
         <div class="container bloc-lg">
-          <div class="row">
-            <div class="col-sm-6">
+          <div id="bloc-contact">
+            <div id="formulaire" class="row">
               <form
                 id="form_1"
                 novalidate
@@ -146,13 +149,23 @@
                   Envoyer
                 </button>
               </form>
-            </div>
-            <div class="col-sm-6">
-              <p>
+              
+            </div>  
+            <div id="map-adresse">
+              <div id="map">
+              </div>
+              <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuacjXTcn43FAI0C8MNAzmVFSehqiNg5I&callback=initMap"
+                async
+              ></script>
+            
+              <div id="adresse">
+                <p>
                 contact@lachouetteagence.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
                 de 9h à 18h, du lundi au vendredi<br />
-              </p>
-            </div>
+                </p>
+              </div>
+            </div> 
           </div>
         </div>
       </section>>
