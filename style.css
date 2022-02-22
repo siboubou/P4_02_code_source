@@ -391,6 +391,7 @@ button {
     margin-top: 6px;
 }
 
+
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
@@ -861,7 +862,4 @@ a:focus .icon-md {
     padding: 1px !important;
     border-radius: 20px !important;
 }
-a:hover .bloc-button,
-a:focus .bloc-button{
-    color: white;
-}
+
