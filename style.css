@@ -150,7 +150,7 @@ a:hover {
     background: rgba(255, 255, 255, 1);
 }
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color:  #333333;
 }
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -474,7 +474,7 @@ a:hover .next-lightbox,
 a:hover .prev-lightbox,
 a:focus .next-lightbox,
 a:focus .prev-lightbox
- {
+{
     opacity: 1.0;
     color: #FFF;
 }
@@ -860,4 +860,8 @@ a:focus .icon-md {
     background-color: #FFDBC7 !important;
     padding: 1px !important;
     border-radius: 20px !important;
+}
+a:hover .bloc-button,
+a:focus .bloc-button{
+    color: white;
 }
